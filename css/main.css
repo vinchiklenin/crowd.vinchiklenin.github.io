@@ -1,0 +1,178 @@
+:root {
+    --navigationcolor: #A77BCA !important; 
+    --backgroundcolor: #D7A9E3 !important;
+    --textcolor:#101820 !important;
+}
+
+main{
+    margin: auto;
+    margin-top: 144px;
+    padding: 24px;
+    color:black;
+}
+
+body {
+    font-family: 'NT Sakharov', sans-serif;
+    background-color:var(--backgroundcolor);
+    width: 100vw;
+    font-feature-settings: "ss01" 1, "ss02" 1, "ss03" 1, "ss04" 1, "kern" 1;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-Hairline.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 1;
+    text-rendering: optimizeLegibility
+}
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-Thin.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 100;
+    text-rendering: optimizeLegibility
+}
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-ExtraLight.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 200;
+    text-rendering: optimizeLegibility
+}
+
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-Light.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 300;
+    text-rendering: optimizeLegibility
+}
+
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-Medium.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-Medium.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-ExtraBold.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 800;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'NT Sakharov';
+    src: url('../fonts/NTSakharov-Black.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+}
+
+
+a:link {
+    color: #aaaaaa(100% 0.01 -0.01);
+    text-decoration: underline;
+}
+
+a:visited {
+    color:#aaaaaa;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #aaaaaa;
+    text-decoration: underline;
+}
+a:active {
+    color: #aaaaaa;
+    text-decoration: underline;
+
+}
+
+
+.h1 {
+    font-family: 'NT Sakharov', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--textcolor);
+    line-height: 48px;
+    text-align: left;
+}
+
+.h3 {
+    font-family: 'NT Sakharov', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--textcolor);
+    line-height: 18px;
+    text-align: left;
+}
+
+.h5 {
+    font-family: 'NT Sakharov', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--textcolor);
+    line-height: 12px;
+    text-align: left;
+}
+
+.white {color:var(--textcolor) !important; }
+.white:hover {color: #b1b1b1ff !important;}
+
+.nodecor {text-decoration: none !important; list-style: none;}
+
+
+@media (max-width: 1500px), (max-height: 820px) {
+}
+
+@media (max-width: 1160px), (max-height: 675px) {
+}
+
+@media (max-width: 770px) {
+    img {padding: 2%; margin-bottom: -5%}
+    
+    .profile_img {
+        height: 50vh;
+      }
+
+    .spec {
+        flex-direction: row;
+    }
+    
+    .col-md-3{
+        padding: 3%;
+    }
+}
